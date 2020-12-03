@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="top">
+	<div class="logoo">
+		<img src="image/logow.png">
+	</div>
+		<img src="image/siloutte1.jpg">
+	</div>
+
+<nav class="navbar navbar-expand-lg ">
+
+
+  <div class=" container-fluid collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav mr-auto ">
+			<li class="nav-item col col-lg-2">
+				<a class="nav-link" href="index.html">Home</a>
+			</li>
+      <li class="nav-item col col-lg-2">
+        <a class="nav-link" href="guidelist.html">Our guides</a>
+      </li>
+      <li class="nav-item col col-lg-2">
+        <a class="nav-link" href="destination.html">Destinations</a>
+      </li>
+      <li class="nav-item col col-lg-2" >
+        <a class="nav-link" href="gallery.html">Gallery </a>
+      </li>
+      <li class="nav-item col col-lg-2">
+        <a class="nav-link" href="services.html">Our Services</a>
+      </li>
+      <li class="nav-item col col-lg-2">
+        <a class="nav-link" href="faq.html">FAQ</a>
+      </li>
+       <li class="nav-item col col-lg-2">
+        <a class="nav-link" href="about.html">About us</a>
+      </li>
+      <li class="nav-item col col-lg-2" id="login"  >
+        <a class="nav-link log" href="login.html"> <i class="fas fa-user"></i>Log In </a>
+
+      <li class="nav-item col col-lg-2" id="signin" style="box-shadow: inset 0 -1px 0 0 cyan;">
+        <a class="nav-link log" href="signup.html"><i class="fas fa-sign-in-alt"></i>Sign UP <span class="sr-only">(current)</span> </a>
+      </li>
+   </ul>
+  </div>
+</nav>
+
+
+<!-- sign up -->
+
+<div class="container">
+	<div class="col col-md-8">
+		<h1 class="mt-4 mb-4">Sign up</h1>
+		<form>
+
+		<div class="mb-3"><br>
+          	<label for="userName">User name</label>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">@</span>
+            </div>
+            <input type="text" class="form-control" id="username" placeholder="Username" required>
+            <div class="invalid-feedback" style="width: 100%;">
+              Your username is required.
+            </div>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="number">Phone number</label>
+          <input type="password" class="form-control" id="number" placeholder="phone number">
+          <div class="invalid-feedback">
+            Please enter your Phone number.
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="address">Address</label>
+          <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
+          <div class="invalid-feedback">
+            Please enter your shipping address.
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-5 mb-3">
+            <label for="country">Country</label>
+            <select class="custom-select d-block w-100" id="country" required>
+              <option value="">...</option>
+              <option>Nepal</option>
+              <option>India</option>
+              <option>America</option>
+              <option>Australia</option>
+              <option>Japan</option>
+            </select>
+            <div class="invalid-feedback">
+              Please select a valid country.
+            </div>
+          </div>
+          <div class="col-md-5 mb-3">
+            <label for="date">Available date</label>
+            <select class="custom-select d-block w-100" id="state" required>
+              <option value="">...</option>
+              <option>2020-1-20</option>
+              <option>2020-1-28</option>
+              <option>2020-2-10</option>
+              <option>2020-2-20</option>
+              <option>2020-3-10</option>
+              <option>2020-3-20</option>
+            </select>
+            <div class="invalid-feedback">
+              Please select a date.
+            </div>
+          </div>
+          <div class="col-md-5 mb-3">
+            <label for="payment">APayment</label>
+            <select class="custom-select d-block w-100" id="pay" required>
+              <option value="">...</option>
+              <option>VISA</option>
+              <option>PayPal</option>
+              <option>Master Card</option>
+            </select>
+            <div class="invalid-feedback">
+              Please select a paymentMethod.
+            </div>
+          </div><hr>
+          <h3>    price : Rs.10,000 /-</h3>
+          <!-- <div class="col-md-3 mb-3">
+            <label for="price">price : Rs.10,000 /-</label>
+          </div> -->
+        </div>
+
+
+        <hr class="mb-4">
+      <a href="bookedprofile.html">  <button class="btn btn-secondary btn-lg btn-block" type="submit">Hire</button></a>
+      </form>
+    </div>
+  </div>
+
+
+
+
+
+
+<!-- Footer -->
+<footer class="page-footer font-small teal pt-4">
+
+  <!-- Footer Text -->
+  <div class="container text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <p>
+          <i class="fas fa-map-marker-alt mr-4"></i> Balkumari,Lalitpur</p>
+        <p>
+          <i class="fas fa-envelope mr-4"></i> info@example.com</p>
+        <p>
+          <i class="fas fa-phone mr-4"></i> + 01 234 567 88</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mb-md-0 mb-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase font-weight-bold">About the company</h5>
+        <p>This website aims to contribute to our tourism industry especially the ‘Visit Nepal 2020’ campaign by allowing the tourists to choose guides as per their needs.The profiles of the guides as well as the ratings and reviews to help them make their decision.The guides will also have a greater exposure and will be able to freelance or work full time in the site.Our registration system and payment system is set up in such a way that it will prevent both customer and guide from fraud.Overall this website is meant to give the customers more freedom over the guides they choose.</p>
+
+          <div class="sites  mt-5">
+          <a class="fb-ic" href="https://www.facebook.com/Book-my-guide-100987671412994/">
+            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+          </a>
+          <!-- Twitter -->
+          <a class="tw-ic" href="#">
+            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Google +-->
+          <a class="gplus-ic" href="#">
+            <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+
+          <!--Instagram-->
+          <a class="ins-ic" href="#">
+            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+         </div>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Text -->
+
+
+
+</body>
+</html>
